@@ -15,6 +15,8 @@ dbConnection();
 // CORS
 app.use(cors());
 
+// Reading and parsing the body
+app.use( express.json() );
 
 // Routes
 // app.use('/', require('./routes/user'));
