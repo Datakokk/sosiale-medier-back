@@ -19,4 +19,5 @@ const generateJWT = ( payload, expiresIn ) => {
 
 module.exports = {
     generateJWT, 
+    
 }
